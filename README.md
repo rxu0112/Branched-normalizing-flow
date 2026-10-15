@@ -232,7 +232,8 @@ python -m evaluation.perturbed.fig_coverage_size_over_datasets
 | Training sample-size comparison | `evaluation.msdg.fig_sample_ablation` | `sample_ablation.pdf` |
 | Source-count comparison | `evaluation.msdg.fig_env_ablation` | `env_ablation.pdf` |
 | SCP/CQR comparison | `evaluation.msdg.fig_scp_cqr_ablation_over_datasets` | `scp_ablation_alpha_0.1_over_datasets.pdf` |
-| Flow architecture comparison | `evaluation.msdg.fig_flow_ablation` | `flow_ablation_alpha_0.1.pdf` |
+| Flow architecture comparison by dataset (WSCG) | `evaluation.msdg.fig_flow_ablation` | `flow_ablation_alpha_0.1.pdf` |
+| Flow architecture comparison pooled across datasets (marginal, WSC, WSCG) | `evaluation.msdg.fig_flow_ablation_over_datasets` | `flow_ablation_alpha_0.1_over_datasets.pdf` |
 | Feature conditioning by dataset | `evaluation.msdg.fig_feature_ablation` | `feature_ablation_alpha_0.1.pdf` |
 | Feature conditioning pooled across datasets | `evaluation.msdg.fig_feature_ablation_over_datasets` | `feature_ablation_alpha_0.1_over_datasets.pdf` |
 | Marginal coverage lower bound | `evaluation.msdg.fig_marginal_lower_bound` | `marginal_lower_bound.pdf` |

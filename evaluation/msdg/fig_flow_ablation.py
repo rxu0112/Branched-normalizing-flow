@@ -15,7 +15,7 @@ import pickle
 from scipy.stats import pearsonr
 
 
-dataset_list = ['bike','bio','traffic','states','hospital'] #['bike','bio','traffic','states','hospital']
+dataset_list = ['bike','bio','traffic','states','hospital']
 dataset_titles = ['Bike Rental', 'PTS', 'Traffic', 'U.S. ILI', 'Fair Med']
 versions = [1,2,3,4,5,6,7,8,9,10]
 alpha_list = [0.1]
